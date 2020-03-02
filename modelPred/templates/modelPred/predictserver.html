@@ -1,0 +1,9 @@
+<form method="POST" enctype="multipart/form-data">
+
+    <!-- Very Important csrf Token -->
+    {% csrf_token %}
+    <table>
+        {{resultjson}}
+    </table>
+
+</form>
